@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cheats.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityRendererMixin"
+  ],
+  "client": [
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
